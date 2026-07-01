@@ -1,6 +1,6 @@
-print(welcome to the BMI calculator)
-BMI=weight/(height)**2
-weight=float(input(enter your weight,")
-height=float(input(enter your height in square,")
-result=print("your BMI is:",BMI)
-print("thankyou for using BMI calculator,come again")
+print("Welcome to the BMI Calculator")
+weight = float(input("Enter your weight (kg): "))
+height = float(input("Enter your height (m): "))
+BMI = weight / (height ** 2)
+print("Your BMI is:", BMI)
+print("Thank you for using the BMI Calculator. Come again!")

@@ -1,7 +1,7 @@
 print("welcome to cutoff calculator")
-cutoff=maths+(chemistry+physics/2)
-maths=int(input(enter your maths mark,")
-chemistry=int(input(enter your chemistry mark,")
-physics=int(input(enter your physics mark,")
+maths=int(input("enter your maths mark: "))
+chemistry=int(input("enter your chemistry mark: "))
+physics=int(input("enter your physics mark: "))
+cutoff=maths+(chemistry+physics)/2
 print("your cutoff is",cutoff)
 print("come again next time")

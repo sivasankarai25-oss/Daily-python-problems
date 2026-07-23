@@ -1,0 +1,5 @@
+student_name=input("the student name is:")
+age=int(input("the age is:"))
+department=input("the department is:")
+college_name=input("the college name is:")
+Roll_number=int(input("the roll number is:"))
